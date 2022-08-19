@@ -1,0 +1,69 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(6, 22, 36);
+}
+img {
+  height: auto;
+  width: 100%;
+  max-width: 5px;
+}
+* {
+  color: white;
+}
+
+.m-top-3 {
+  margin-top: 30px !important;
+}
+
+.m-top-5 {
+  margin-top: 50px !important;
+}
+
+.m-top-7 {
+  margin-top: 70px !important;
+}
+
+h1 {
+  text-align: center;
+  font-size: 47px;
+}
+
+h1 p:first-child {
+  letter-spacing: 5px;
+}
+
+h1 p:last-child {
+  letter-spacing: 20px;
+}
+
+.box {
+  width: 30%;
+  height: 220px;
+  border-radius: 12px;
+  background-color: white;
+  margin-top: 25px;
+}
+
+.btn {
+  margin: 0px 25px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.Screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.board {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 30%;
+}
+.score {
+  width: 5%;
+  margin: 30px;
+}
